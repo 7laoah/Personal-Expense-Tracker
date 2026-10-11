@@ -1,106 +1,119 @@
 # Personal Expense Tracker
 
-## Overview
+A personal finance management web application designed to help users track income, manage expenses, and understand their spending habits.
 
-Personal Expense Tracker is a web development project designed to help users manage and track their income and expenses through a simple, user-friendly interface.
+**Project Status:** 🚧 In Development
 
-The project is built using **HTML, CSS, and JavaScript** and focuses on practicing fundamental frontend development concepts, including DOM manipulation, event handling, arrays, objects, and user input validation.
+## About the Project
 
-**Project Status:** In Progress
+This project is being developed as part of my journey in learning full-stack web development.
+
+The goal is to build a functional financial management application using HTML, CSS, JavaScript, Python (Flask), and MySQL.
+
+The application is being developed step by step, starting with frontend functionality and gradually expanding into backend development, database integration, and data visualization.
 
 ## Features Implemented
 
-### 1. Financial Dashboard
-- Created a dashboard displaying Total Balance, Total Income, and Total Expenses.
-- Designed individual cards for each financial category.
-- Applied CSS styling to improve readability and layout.
-- Added responsive styling for smaller screens.
+- Responsive financial dashboard layout
+- Income and expense transaction form
+- Add Transaction button with show/hide functionality
+- Basic input validation
+- Transaction management using JavaScript arrays and objects
+- Dynamic display of transaction history
+- Automatic form clearing after saving transactions
 
-**Note:** Dashboard values are currently placeholders and are not yet updated automatically.
-
-### 2. Add Transaction Form
-- Created an interactive Add Transaction button.
-- Implemented JavaScript event listeners to open and close the transaction form.
-- Added input fields for:
-  - Transaction amount
-  - Transaction type (Income or Expense)
-  - Transaction description
-
-### 3. Transaction Management
-- Implemented functionality to read user inputs using JavaScript.
-- Used JavaScript objects to represent individual transactions.
-- Used an array to temporarily store transaction records.
-- Displayed saved transactions dynamically in a transaction list.
-
-### 4. Input Validation
-- Added basic validation to prevent zero or negative transaction amounts.
-- Prevented transactions with empty descriptions.
-- Displayed alerts when required information was invalid.
-- Cleared the input fields after successfully saving a transaction.
-
-### 5. Responsive Design
-- Styled the application using CSS.
-- Used Flexbox to organize dashboard cards.
-- Added hover effects and button styling.
-- Implemented media queries to improve usability on smaller screens.
-
-## Technologies Used
+## Technologies Currently Used
 
 | Technology | Purpose |
 |---|---|
 | HTML5 | Website structure |
-| CSS3 | Styling and responsive layout |
-| JavaScript | User interactions and transaction handling |
+| CSS3 | Styling and responsive design |
+| JavaScript | User interaction and transaction management |
+
+## Planned Technologies
+
+| Technology | Purpose |
+|---|---|
+| Python (Flask) | Backend development and REST APIs |
+| MySQL | Permanent transaction storage |
+| Chart.js | Financial data visualization |
+
+## Development Roadmap
+
+### Phase 1 — Frontend Development
+- [x] Create the dashboard layout
+- [x] Style the application using CSS
+- [x] Implement the Add Transaction form
+- [x] Validate user inputs
+- [x] Display transaction history
+- [ ] Calculate balance, income, and expenses dynamically
+- [ ] Implement localStorage
+
+### Phase 2 — Data Visualization
+- [ ] Create spending charts using Chart.js
+- [ ] Display monthly income and expense statistics
+- [ ] Add spending categories
+
+### Phase 3 — Backend Development
+- [ ] Set up Python Flask
+- [ ] Develop REST APIs
+- [ ] Connect the frontend to the backend
+
+### Phase 4 — Database Integration
+- [ ] Design the MySQL database
+- [ ] Store and retrieve transactions
+- [ ] Implement transaction updates and deletion
+
+### Phase 5 — Final Improvements
+- [ ] Add transaction filtering
+- [ ] Implement monthly budgeting
+- [ ] Improve the user interface
+- [ ] Test application functionality
+- [ ] Complete project documentation
 
 ## Project Structure
 
 ```text
-ExpenseTracker/
+personal-expense-tracker/
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
 ```
 
+The project structure will expand as backend and database components are implemented.
+
 ## How to Run
 
-1. Download or clone this repository.
+1. Clone or download this repository.
 2. Open the project folder in Visual Studio Code.
-3. Open `index.html` in your web browser.
-4. Click **Add Transaction** to enter and save transactions.
+3. Open `index.html` in your browser.
+4. Click **Add Transaction** to begin entering transactions.
 
-No additional installation is required.
+No additional dependencies are currently required.
 
 ## Current Limitations
 
-- Transactions are stored temporarily in a JavaScript array.
-- Refreshing the page clears previously entered transactions.
-- Dashboard balances are not yet calculated dynamically.
-- No database or backend integration is currently implemented.
-
-## Planned Improvements
-
-- [ ] Automatically calculate Total Balance, Income, and Expenses.
-- [ ] Implement localStorage to save transactions after refreshing.
-- [ ] Add functionality to delete transactions.
-- [ ] Add transaction categories.
-- [ ] Implement expense charts and visualizations.
-- [ ] Add monthly budget tracking.
-- [ ] Integrate a backend and database.
+- Dashboard values are currently static.
+- Transaction data is stored temporarily in memory.
+- Refreshing the page clears saved transactions.
+- Backend and database functionality have not yet been implemented.
 
 ## Learning Objectives
 
-This project is part of my personal learning journey in web development.
+Through this project, I aim to strengthen my understanding of:
 
-Through its development, I have practiced:
+- Frontend web development
+- JavaScript DOM manipulation
+- Event handling and input validation
+- Backend development with Python
+- Relational database management
+- REST API development
+- Data visualization
+- Full-stack application architecture
 
-- Structuring web pages using HTML.
-- Designing responsive interfaces with CSS.
-- Working with JavaScript variables, arrays, and objects.
-- Handling events and manipulating the DOM.
-- Processing and validating user input.
-- Developing an interactive application step by step.
+## Future Development
 
-## Project Development
+This project will continue to evolve as new features and technologies are introduced.
 
-This project is being developed incrementally, with new features added as I continue improving my programming and web development skills.
+The final goal is to transform the current frontend prototype into a functional full-stack personal finance management application.
