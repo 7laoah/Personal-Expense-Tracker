@@ -27,7 +27,7 @@ The application is being developed step by step, starting with frontend function
 | Technology | Purpose |
 |---|---|
 | HTML5 | Website structure |
-| CSS3 | Styling and responsive design |
+| CSS| Styling and responsive design |
 | JavaScript | User interaction and transaction management |
 
 ## Planned Technologies
