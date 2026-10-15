@@ -40,36 +40,41 @@ The application is being developed step by step, starting with frontend function
 
 ## Development Roadmap
 
-### Phase 1 — Frontend Development
-- [x] Create the dashboard layout
-- [x] Style the application using CSS
-- [x] Implement the Add Transaction form
-- [x] Validate user inputs
-- [x] Display transaction history
-- [ ] Calculate balance, income, and expenses dynamically
-- [ ] Implement localStorage
+### Phase 1 — Frontend Development ✅
+- [x] Create the financial dashboard layout.
+- [x] Design a responsive user interface with CSS.
+- [x] Implement an interactive Add Transaction form.
+- [x] Add input validation for transaction amounts and descriptions.
+- [x] Store transactions using JavaScript arrays and objects.
+- [x] Display transaction history dynamically.
+- [x] Automatically calculate total balance, income, and expenses.
+- [x] Implement localStorage to preserve transactions after page refreshes.
+- [x] Load saved transactions when the application starts.
+- [x] Organize JavaScript code using reusable functions.
 
 ### Phase 2 — Data Visualization
-- [ ] Create spending charts using Chart.js
-- [ ] Display monthly income and expense statistics
-- [ ] Add spending categories
+- [ ] Integrate Chart.js.
+- [ ] Create income and expense charts.
+- [ ] Implement spending categories.
+- [ ] Display monthly financial statistics.
 
 ### Phase 3 — Backend Development
-- [ ] Set up Python Flask
-- [ ] Develop REST APIs
-- [ ] Connect the frontend to the backend
+- [ ] Set up Python Flask.
+- [ ] Develop REST APIs for managing transactions.
+- [ ] Connect the frontend to the backend.
 
 ### Phase 4 — Database Integration
-- [ ] Design the MySQL database
-- [ ] Store and retrieve transactions
-- [ ] Implement transaction updates and deletion
+- [ ] Design the MySQL database.
+- [ ] Implement persistent database storage.
+- [ ] Retrieve, update, and delete transactions through the backend.
 
 ### Phase 5 — Final Improvements
-- [ ] Add transaction filtering
-- [ ] Implement monthly budgeting
-- [ ] Improve the user interface
-- [ ] Test application functionality
-- [ ] Complete project documentation
+- [ ] Implement transaction filtering and searching.
+- [ ] Add monthly budget management.
+- [ ] Improve user experience and interface design.
+- [ ] Test application functionality.
+- [ ] Finalize project documentation.
+
 
 ## Project Structure
 
